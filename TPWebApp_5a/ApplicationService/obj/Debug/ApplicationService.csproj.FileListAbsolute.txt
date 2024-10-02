@@ -1,0 +1,44 @@
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.pdb
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.pdb
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.pdb
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.pdb
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.pdb
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\ApplicationService.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\DataPersistence.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\bin\Debug\Model.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.pdb
