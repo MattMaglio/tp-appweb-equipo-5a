@@ -22,3 +22,9 @@ C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Mo
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.dll
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.pdb

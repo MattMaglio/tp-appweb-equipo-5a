@@ -19,6 +19,13 @@ namespace DataPersistence
             sqlQuery.CommandText = query;
         }
 
+        public void configSqlProcedure(string sp)
+        {
+            sqlQuery = new SqlCommand();
+            sqlQuery.CommandType = System.Data.CommandType.StoredProcedure;
+            sqlQuery.CommandText = sp;
+        }
+
         public void configSqlConexion(SqlConnection conexion)
         {
             if (sqlQuery == null)
@@ -27,6 +34,17 @@ namespace DataPersistence
             }
 
             sqlQuery.Connection = conexion;
+        }
+
+        public void configSqlParams(string nombre, object valor)
+        {
+            if (sqlQuery == null)
+            {
+                throw new InvalidOperationException("sqlQuery no está inicializado.");
+            }
+
+
+            sqlQuery.Parameters.AddWithValue(nombre, valor);
         }
 
         public SqlDataReader ejecutarConsulta()
@@ -50,19 +68,7 @@ namespace DataPersistence
             sqlQuery.ExecuteNonQuery();
              
         }
-
-        public void configSqlParams(string nombre, object valor)
-        {
-            if (sqlQuery == null)
-            {
-                throw new InvalidOperationException("sqlQuery no está inicializado.");
-            }
-
-         
-            sqlQuery.Parameters.AddWithValue(nombre, valor);
-        }
-        //*********************************************************************************************
-        //EJECUTAR ESCALAR (SE USA PARA QUERIES QUE DEVUELVEN UN VALOR UNICO)
+       
         public object ejecutarEscalar()
         {
             if (sqlQuery.Connection == null)
@@ -73,8 +79,6 @@ namespace DataPersistence
             object result = sqlQuery.ExecuteScalar();
             return result;
         }
-
-
 
     }
 }

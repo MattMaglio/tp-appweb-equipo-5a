@@ -42,3 +42,14 @@ C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.dll
 C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\ApplicationService\obj\Debug\ApplicationService.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\ApplicationService.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\ApplicationService.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\DataPersistence.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\Model.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\DataPersistence.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\Model.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.pdb
