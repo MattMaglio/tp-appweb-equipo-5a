@@ -1,0 +1,30 @@
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.pdb
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.dll
+D:\GitHub\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.pdb
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.dll
+C:\Users\danie\OneDrive\Escritorio\ITATI\PROGRAMACION 3\ACTIVIDADES\Actividad 2 TP WINFORMS\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.dll
+C:\Users\Lenovo\Desktop\ProyectoLabII\TPWinForm_Equipo5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\bin\Debug\Model.pdb
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.dll
+C:\TPWINFORMS PROGRA3\tp-winform-equipo-5a\TPWinForm_Equipo5a\Model\obj\Debug\Model.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.pdb
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.dll
+D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.pdb
