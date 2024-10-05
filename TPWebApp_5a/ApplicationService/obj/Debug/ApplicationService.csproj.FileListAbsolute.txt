@@ -53,3 +53,14 @@ D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\Applicati
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.dll
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\ApplicationService.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\ApplicationService.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\DataPersistence.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\Model.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\DataPersistence.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\bin\Debug\Model.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.csproj.AssemblyReference.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.csproj.CoreCompileInputs.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\Applicat.04A62F56.Up2Date
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\ApplicationService\obj\Debug\ApplicationService.pdb

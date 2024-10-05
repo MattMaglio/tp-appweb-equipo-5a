@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,27 @@ namespace WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           txtId.Enabled = false;   
+        }
 
+        protected void btnAceptar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cliente clienteNuevo = new Cliente();
+                clienteNuevo.ClienteDNI = int.Parse(txtDNI.Text);
+                clienteNuevo.ClienteNombre = txtNombre.Text;
+                clienteNuevo.ClienteApellido = txtApellido.Text;
+                clienteNuevo.ClienteEmail = txtEmail.Text;
+                clienteNuevo.ClienteDireccion = txtDireccion.Text;
+                clienteNuevo.ClienteCiudad = txtCiudad.Text;
+                clienteNuevo.ClienteCP = int.Parse(txtCP.Text);
+            }
+            catch (Exception)
+            {
+                //Session.Add("error",ex);
+                throw;
+            }
         }
     }
 }
