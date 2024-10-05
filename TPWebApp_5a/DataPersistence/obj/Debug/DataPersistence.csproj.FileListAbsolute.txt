@@ -28,3 +28,9 @@ D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersiste
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.csproj.CoreCompileInputs.cache
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.dll
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\bin\Debug\DataPersistence.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\bin\Debug\DataPersistence.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.csproj.AssemblyReference.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.csproj.CoreCompileInputs.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\DataPersistence\obj\Debug\DataPersistence.pdb

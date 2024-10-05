@@ -28,3 +28,9 @@ D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.AssemblyR
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.dll
 D:\GitHub\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\bin\Debug\Model.pdb
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.dll
+C:\PROYECTO TP WEB APP\tp-appweb-equipo-5a\TPWebApp_5a\Model\obj\Debug\Model.pdb
