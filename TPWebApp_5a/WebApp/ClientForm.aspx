@@ -5,22 +5,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="row">
+        <h1>Ingresá tus datos</h1>
+
         <div class="col-6">
-            <h1>Ingresá tus datos</h1>
-            <br>
-             <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
- <asp:Label ID="lblSuccess" runat="server" ForeColor="Green"></asp:Label>
-            <div class="mb-3">
-                <label for="txtId" class="form-label">Id</label>
-                <asp:TextBox runat="server" ID="txtId" CssClass="form-control" />
-            </div>
-            <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
-            <asp:Label ID="Label2" runat="server" ForeColor="Green"></asp:Label>
+
+            <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
+            <asp:Label ID="lblSuccess" runat="server" ForeColor="Green"></asp:Label>
 
 
             <div class="mb-3">
                 <label for="txtDNI" class="form-label">DNI</label>
-                <asp:TextBox runat="server" ID="txtDNI" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="txtDNI" CssClass="form-control" AutoPostBack="true" OnTextChanged="txtDNI_TextChanged" />
             </div>
             <asp:Label ID="Label3" runat="server" ForeColor="Red"></asp:Label>
             <asp:Label ID="Label4" runat="server" ForeColor="Green"></asp:Label>
@@ -48,7 +43,8 @@
             </div>
             <asp:Label ID="Label9" runat="server" ForeColor="Red"></asp:Label>
             <asp:Label ID="Label10" runat="server" ForeColor="Green"></asp:Label>
-
+        </div>
+        <div class="col-6">
 
             <div class="mb-3">
                 <label for="txtDireccion" class="form-label">Dirección</label>
@@ -76,26 +72,27 @@
 
 
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <asp:CheckBox runat="server" ID="chkTerminos" CssClass="form-check-input" />
                 <label class="form-check-label" for="flexCheckDefault">
                     Acepto los términos y condiciones
                 </label>
             </div>
 
+
+
         </div>
 
-
-
-
-        <div class="mb-3">
-            <asp:Button Text="Aceptar" ID="btnAceptar" CssClass="btn btn-primary" OnClick="btnAceptar_Click" runat="server" />
-        </div>
-       
+    </div>
 
 
 
 
-
+    <div class="mb-3">
+        <asp:Button Text="Aceptar" ID="btnAceptar" CssClass="btn btn-primary" OnClick="btnAceptar_Click" runat="server" />
+    </div>
+    <div class="mb-3">
+        <asp:Button Text="Vaciar Formulario" ID="btnVaciar" CssClass="btn btn-secondary" OnClick="btnVaciar_Click" runat="server" />
+    </div>
 
 
     </div>
