@@ -68,10 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClientForm.aspx" />
+    <Content Include="CssStyle\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="SelectProduct.aspx" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="VoucherPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +115,13 @@
     </Compile>
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherPage.aspx.cs">
+      <DependentUpon>VoucherPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoucherPage.aspx.designer.cs">
+      <DependentUpon>VoucherPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
