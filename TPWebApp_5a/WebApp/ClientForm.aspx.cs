@@ -14,7 +14,29 @@ namespace WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           txtId.Enabled = false;   
+            //fx dni para llenar form
+            if (!IsPostBack)
+            {
+                if (!string.IsNullOrWhiteSpace(txtDNI.Text) && int.TryParse(txtDNI.Text, out int dni))
+                {
+                    ClienteAS clienteAS = new ClienteAS();
+                    var cliente = clienteAS.ObtenerClientePorDNI(dni);
+                    if (cliente != null)
+                    {
+                        // Autocompletar el formulario
+                        txtNombre.Text = cliente.ClienteNombre;
+                        txtApellido.Text = cliente.ClienteApellido;
+                        txtEmail.Text = cliente.ClienteEmail;
+                        txtDireccion.Text = cliente.ClienteDireccion;
+                        txtCiudad.Text = cliente.ClienteCiudad;
+                        txtCP.Text = cliente.ClienteCP.ToString();
+                    }
+                    else
+                    {
+                        lblError.Text = "Cliente no encontrado.";
+                    }
+                }
+            }
         }
 
 
@@ -23,15 +45,46 @@ namespace WebApp
             return email.Contains("@") && email.Contains(".") && email.IndexOf('@') < email.LastIndexOf('.');
         }
 
+
+        // manejo el evento de cambio en el TextBox de DNI
+        public void txtDNI_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtDNI.Text, out int dni))
+            {
+                ClienteAS clienteAS = new ClienteAS();
+                var cliente = clienteAS.ObtenerClientePorDNI(dni);
+                if (cliente != null)
+                {
+                    // Autocompleto el formulario
+                    txtNombre.Text = cliente.ClienteNombre;
+                    txtApellido.Text = cliente.ClienteApellido;
+                    txtEmail.Text = cliente.ClienteEmail;
+                    txtDireccion.Text = cliente.ClienteDireccion;
+                    txtCiudad.Text = cliente.ClienteCiudad;
+                    txtCP.Text = cliente.ClienteCP.ToString();
+                }
+                else
+                {
+                    lblError.Text = "Cliente no encontrado.";
+                }
+            }
+        }
+
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
+
+            if (!chkTerminos.Checked)
+            {
+                lblError.Text = "Debes aceptar los términos y condiciones para continuar.";
+                return;
+            }
 
 
             try
             {
                 Cliente clienteNuevo = new Cliente();
                 ClienteAS clienteAS = new ClienteAS();
-               
+
                 if (!int.TryParse(txtDNI.Text, out int dni))
                 {
                     lblError.Text = "El DNI debe ser un número válido.";
@@ -117,7 +170,9 @@ namespace WebApp
 
                 clienteAS.agregarCliente(clienteNuevo);
                 lblSuccess.Text = "Cliente agregado exitosamente.";
-                lblError.Text = ""; 
+                lblError.Text = "";
+
+                Response.Redirect("success.aspx");
 
 
             }
@@ -128,5 +183,24 @@ namespace WebApp
                 throw;
             }
         }
+
+        protected void btnVaciar_Click(object sender, EventArgs e)
+        {
+            // Vacio los campos del form
+            txtDNI.Text = string.Empty;
+            txtNombre.Text = string.Empty;
+            txtApellido.Text = string.Empty;
+            txtEmail.Text = string.Empty;
+            txtDireccion.Text = string.Empty;
+            txtCiudad.Text = string.Empty;
+            txtCP.Text = string.Empty;
+            chkTerminos.Checked = false;
+
+            // Limpiar etiquetas de error y success
+            lblError.Text = string.Empty;
+            lblSuccess.Text = string.Empty;
+        }
+
     }
+
 }

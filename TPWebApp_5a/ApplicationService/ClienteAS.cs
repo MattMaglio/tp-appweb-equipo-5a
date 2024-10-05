@@ -55,15 +55,15 @@ namespace ApplicationService
                 query.configSqlParams("@nombreCliente", clienteNuevo.ClienteNombre);
                 query.configSqlParams("@apellidoCliente", clienteNuevo.ClienteApellido);
                 query.configSqlParams("@EmailCliente", clienteNuevo.ClienteEmail);
-                query.configSqlParams("@DireccionCliente",clienteNuevo.ClienteDireccion);
+                query.configSqlParams("@DireccionCliente", clienteNuevo.ClienteDireccion);
                 query.configSqlParams("@CiudadCliente", clienteNuevo.ClienteCiudad);
                 query.configSqlParams("@CPCliente", clienteNuevo.ClienteCP);
 
                 // Ejecutar la query y obtener el ID generado
-               int idGenerado = Convert.ToInt32(query.ejecutarEscalar());
+                int idGenerado = Convert.ToInt32(query.ejecutarEscalar());
 
-               return idGenerado;
-                
+                return idGenerado;
+
             }
             catch (Exception ex)
             {
@@ -74,9 +74,61 @@ namespace ApplicationService
                 // Cierro la conexión
                 conexion.cerrarConexion();
             }
-            return -1; // Valor indicando que no se insertó correctamente
+            return -1; // si falló el insert
         }
 
 
+
+
+
+        //*******************************************************************************************************
+        public Cliente ObtenerClientePorDNI(int dni)
+        {
+            DataAccess conexion = new DataAccess();
+            DataManipulator query = new DataManipulator();
+
+            try
+            {
+                // Configuro query de selección
+                query.configSqlQuery("SELECT * FROM CLIENTES WHERE Documento = @DNICliente");
+                query.configSqlConexion(conexion.obtenerConexion());
+                conexion.abrirConexion();
+
+                query.configSqlParams("@DNICliente", dni);
+
+                // Ejecutar la query y obtener el cliente
+                using (var reader = query.ejecutarConsulta())
+                {
+                    if (reader.Read())
+                    {
+                        return new Cliente
+                        {
+                            ClienteDNI = Convert.ToInt32(reader["Documento"]),
+                            ClienteNombre = reader["Nombre"].ToString(),
+                            ClienteApellido = reader["Apellido"].ToString(),
+                            ClienteEmail = reader["Email"].ToString(),
+                            ClienteDireccion = reader["Direccion"].ToString(),
+                            ClienteCiudad = reader["Ciudad"].ToString(),
+                            ClienteCP = Convert.ToInt32(reader["CP"])
+                        };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el cliente de la base de datos", ex);
+            }
+            finally
+            {
+                conexion.cerrarConexion();
+            }
+
+            return null; // Si no se encuentra el cliente
+        }
+
+
+        //*******************************************************************************************************
     }
+
+
 }
