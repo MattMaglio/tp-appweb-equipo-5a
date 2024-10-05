@@ -8,18 +8,6 @@ namespace Model
 {
     public class Cliente
     {
-        /*
-         dni
-        nombre
-        apellido
-        email
-        direccion
-        ciudad
-        cp
-              
-         */
-
-
         public int ClienteId { get; set; }
 
         public int ClienteDNI { get; set; }
