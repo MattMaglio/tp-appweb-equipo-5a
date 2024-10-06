@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ArticuloAS.cs" />
     <Compile Include="CategoriaAS.cs" />
+    <Compile Include="ClienteAS.cs" />
     <Compile Include="ImagenAS.cs" />
     <Compile Include="MarcaAS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
