@@ -71,9 +71,9 @@
 
 
 
-            <div class="form-check">
-                <asp:CheckBox runat="server" ID="chkTerminos" CssClass="form-check-input" />
-                <label class="form-check-label" for="flexCheckDefault">
+            <div class="form-check d-flex align-items-center">
+                <asp:CheckBox runat="server" ID="chkTerminos" CssClass="form-check-input me-2" />
+                <label class="form-check-label" for="chkTerminos">
                     Acepto los términos y condiciones
                 </label>
             </div>
@@ -87,10 +87,9 @@
 
 
 
-    <div class="mb-3">
-        <asp:Button Text="Aceptar" ID="btnAceptar" CssClass="btn btn-primary" OnClick="btnAceptar_Click" runat="server" />
-    </div>
-    <div class="mb-3">
+    <div class="mb-3 d-flex justify-content-center">
+        <asp:Button Text="Aceptar" ID="btnAceptar" CssClass="btn btn-primary me-3" OnClick="btnAceptar_Click" runat="server" />
+    
         <asp:Button Text="Vaciar Formulario" ID="btnVaciar" CssClass="btn btn-secondary" OnClick="btnVaciar_Click" runat="server" />
     </div>
 

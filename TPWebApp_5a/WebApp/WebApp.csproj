@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bases.aspx" />
     <Content Include="ClientForm.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -76,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bases.aspx.cs">
+      <DependentUpon>Bases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bases.aspx.designer.cs">
+      <DependentUpon>Bases.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ClientForm.aspx.cs">
       <DependentUpon>ClientForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
