@@ -2,6 +2,7 @@
 using Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -29,15 +30,21 @@ namespace WebApp
                 VoucherAS vchAS = new VoucherAS();
 
                 vch = vchAS.buscarVoucher(codVch);
+                
+                    if (vch.FechCanje == null && vch.CodVoucher != null)
+                    {
+                        Session.Add("Voucher", vch);
+                        Response.Redirect("SelectProduct.aspx", false);
 
-                if (vch.FechCanje == null)
-                {
-                    Session.Add("Voucher", vch);
-                }
-                else
-                {
-                    Response.Redirect("ErrorPage.aspx", false);
-                }
+                    }
+                    else if (vch.FechCanje != null && vch.CodVoucher != null)
+                    {
+                        Response.Redirect("vchCanjeado.aspx", false);
+                    }
+                    else {
+                        Response.Redirect("ErrorPage.aspx", false);
+                    }
+
             }
             catch (Exception ex)
             {
