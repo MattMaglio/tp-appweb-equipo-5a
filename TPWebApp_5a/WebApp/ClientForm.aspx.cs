@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
 
 namespace WebApp
 {
@@ -38,14 +39,10 @@ namespace WebApp
                 }
             }
         }
-
-
         public bool EsEmailValido(string email)
         {
             return email.Contains("@") && email.Contains(".") && email.IndexOf('@') < email.LastIndexOf('.');
         }
-
-
         // manejo el evento de cambio en el TextBox de DNI
         public void txtDNI_TextChanged(object sender, EventArgs e)
         {
@@ -69,7 +66,6 @@ namespace WebApp
                 }
             }
         }
-
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
 
@@ -82,15 +78,40 @@ namespace WebApp
 
             try
             {
-                Cliente clienteNuevo = new Cliente();
+
                 ClienteAS clienteAS = new ClienteAS();
+                VoucherAS vchAS = new VoucherAS();
 
                 if (!int.TryParse(txtDNI.Text, out int dni))
                 {
                     lblError.Text = "El DNI debe ser un número válido.";
                     return;
                 }
+
+                // Verifico si el cliente ya existe
+                var clienteExistente = clienteAS.ObtenerClientePorDNI(dni);
+                if (clienteExistente != null)
+                {
+                    // Si el cliente ya existe,autocompleto y me voy a success
+
+                    Voucher sessionVch = new Voucher();
+
+                    sessionVch = (Voucher)Session["Voucher"];
+                    sessionVch.IdCli = clienteAS.ObtenerIdCliente(dni);
+                    sessionVch.FechCanje = DateTime.Now;
+
+                    Session.Add("Voucher", sessionVch);
+                    vchAS.updateVoucher(sessionVch);
+
+                    Response.Redirect("success.aspx");
+                    return;
+                }
+
+                // Si no existe, creo un new client
+                Cliente clienteNuevo = new Cliente();
                 clienteNuevo.ClienteDNI = dni;
+
+
 
                 // Validar Nombre
                 clienteNuevo.ClienteNombre = txtNombre.Text.Trim();
@@ -172,6 +193,15 @@ namespace WebApp
                 lblSuccess.Text = "Cliente agregado exitosamente.";
                 lblError.Text = "";
 
+                Voucher vch = new Voucher();
+
+                vch = (Voucher)Session["Voucher"];
+                vch.IdCli = clienteAS.ObtenerIdCliente(dni);
+                vch.FechCanje = DateTime.Now;
+
+                Session.Add("Voucher", vch);
+                vchAS.updateVoucher(vch);
+
                 Response.Redirect("success.aspx");
 
 
@@ -183,7 +213,6 @@ namespace WebApp
                 throw;
             }
         }
-
         protected void btnVaciar_Click(object sender, EventArgs e)
         {
             // Vacio los campos del form

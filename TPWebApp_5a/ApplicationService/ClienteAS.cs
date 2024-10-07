@@ -76,12 +76,6 @@ namespace ApplicationService
             }
             return -1; // si falló el insert
         }
-
-
-
-
-
-        //*******************************************************************************************************
         public Cliente ObtenerClientePorDNI(int dni)
         {
             DataAccess conexion = new DataAccess();
@@ -90,7 +84,7 @@ namespace ApplicationService
             try
             {
                 // Configuro query de selección
-                query.configSqlQuery("SELECT * FROM CLIENTES WHERE Documento = @DNICliente");
+                query.configSqlQuery("SELECT Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP FROM CLIENTES WHERE Documento = @DNICliente");
                 query.configSqlConexion(conexion.obtenerConexion());
                 conexion.abrirConexion();
 
@@ -125,9 +119,41 @@ namespace ApplicationService
 
             return null; // Si no se encuentra el cliente
         }
+        public int ObtenerIdCliente(int dni)
+        {
+            DataAccess conexion = new DataAccess();
+            DataManipulator query = new DataManipulator();
 
+            try
+            {
+                // Configuro query de selección
+                query.configSqlQuery("SELECT id FROM CLIENTES WHERE Documento = @DNICliente");
+                query.configSqlConexion(conexion.obtenerConexion());
+                conexion.abrirConexion();
 
-        //*******************************************************************************************************
+                query.configSqlParams("@DNICliente", dni);
+
+                // Ejecutar la query y obtener el cliente
+                using (var reader = query.ejecutarConsulta())
+                {
+                    if (reader.Read())
+                    {
+                        return Convert.ToInt32(reader["Id"]);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el cliente de la base de datos", ex);
+            }
+            finally
+            {
+                conexion.cerrarConexion();
+            }
+
+            return -1; // Si no se encuentra el cliente
+
+        }
     }
 
 

@@ -74,6 +74,7 @@
     <Content Include="SelectProduct.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="Success.aspx" />
+    <Content Include="vchCanjeado.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="Success.aspx.designer.cs">
       <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vchCanjeado.aspx.cs">
+      <DependentUpon>vchCanjeado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vchCanjeado.aspx.designer.cs">
+      <DependentUpon>vchCanjeado.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
